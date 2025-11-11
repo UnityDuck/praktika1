@@ -23,7 +23,7 @@ int F(int N) {
     return sum;
 }
 
-int main() {
+int main(int argc, char *argv[]) {
     const int LIMIT = 750000;
     const int MAX_RESULTS = 10000;
     int* N_values = (int*)malloc(MAX_RESULTS * sizeof(int));
