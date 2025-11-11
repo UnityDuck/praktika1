@@ -35,7 +35,7 @@ int F(int N) {
     return sum / divisors.size();
 }
 
-int main() {
+int main(int argc, char *argv[]) {
     int count = 0;
     for (int N = 749999; N >= 2 && count < 5; N--) {
         int f_val = F(N);
