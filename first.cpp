@@ -1,7 +1,7 @@
 #include <iostream>
 using namespace std;
 
-int main() {
+int main(int argc, char *argv[]) {
     const int MAX_SIZE = 100000; // запас
     int* arr = new int[MAX_SIZE];
     int n = 0;
