@@ -7,7 +7,7 @@ struct FileInfo {
     int size;
 };
 
-int main() {
+int main(int argc, char *argv[]) {
     const int MAX = 1000;
     struct FileInfo files[MAX];
     int n = 0;
