@@ -25,7 +25,7 @@ int F(int N) {
     return sum;
 }
 
-int main() {
+int main(int argc, char *argv[]) {
     const int LIMIT = 750000;
     vector<pair<int, int>> results; // (N, F(N))
 
