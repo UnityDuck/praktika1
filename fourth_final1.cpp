@@ -5,7 +5,7 @@ int compare(const void* a, const void* b) {
     return (*(int*)a - *(int*)b);
 }
 
-int main() {
+int main(int argc, char *argv[]) {
     int S, N;
     scanf("%d %d", &S, &N);
 
