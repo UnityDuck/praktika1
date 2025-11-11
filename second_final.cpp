@@ -55,7 +55,7 @@ int sum_divisors(int m) {
     return sum;
 }
 
-int main() {
+int main(int argc, char *argv[]) {
     int found = 0;
     for (int N = 100000001; found < 5; N++) {
         // Степень двойки в N
