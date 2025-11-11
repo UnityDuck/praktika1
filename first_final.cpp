@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-int main() {
+int main(int argc, char *argv[]) {
     const int MAX_SIZE = 100000;
     int* arr = (int*)malloc(MAX_SIZE * sizeof(int));
     int n = 0;
