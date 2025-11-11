@@ -33,7 +33,7 @@ void analyze(int N, int &countP, int &countE, int &sumP, int &sumE) {
     }
 }
 
-int main() {
+int main(int argc, char *argv[]) {
     const int LIMIT = 1000000;
     vector<pair<int, int>> results; // (N, M(N))
 
