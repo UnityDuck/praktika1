@@ -31,7 +31,7 @@ void analyze(int N, int &countP, int &countE, int &sumP, int &sumE) {
     }
 }
 
-int main() {
+int main(int argc, char *argv[]) {
     const int LIMIT = 1000000;
     const int MAX_RESULTS = 10000; // ограничим количество результатов
     int* N_values = (int*)malloc(MAX_RESULTS * sizeof(int));
